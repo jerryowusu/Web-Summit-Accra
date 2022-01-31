@@ -10,3 +10,32 @@
     scroll-behavior: smooth;
   }
   
+  
+.lato {
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .coco {
+    font-family: 'Cocogoose', sans-serif;
+  }
+  
+  .orange {
+    color: #f25938;
+  }
+  
+  .grey {
+    color: #c4bfbf;
+  }
+  
+  .greyer {
+    font-weight: bolder;
+    color: #5f5d5d;
+  }
+  
+  .white {
+    color: #fff;
+  }
+  
+  .red {
+    color: red;
+  }
