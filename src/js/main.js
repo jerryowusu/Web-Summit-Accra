@@ -1,4 +1,4 @@
-const program = [
+const programs = [
   {
     imageUrl: 'https://fontawesome.com/v4.7/icon/fa-graduation-cap',
     title: 'Lecture',
@@ -70,3 +70,33 @@ const speakers = [
     imageUrl: '/src/images/peter-yefi.jpg',
   },
 ];
+
+const programCard = document.getElementById('program-cards');
+
+programs.forEach((program) => {
+  programCard.innerHTML += `
+    <div class='program white'>
+    ${program.imageUrl}
+    <h2 class='orange' >${program.title}</h2>
+    <p class='grey' >${program.text}</p>
+    </div>
+    `;
+});
+
+const speakerCard = document.getElementById('speaker-cards');
+
+speakers.forEach((speaker) => {
+  speakerCard.innerHTML += `
+     <div id='speaker.id'>
+       <div>
+      <img src='/src/images/speaker-background.jpg'width='60%' height='80%'>
+      <img src=' ${speaker.imageUrl}' alt='${speaker.name}' width='80%' height='100%'>
+      </div>
+      <div>
+     <h3 class='' >${speaker.name}</h3>
+      <h3 class='orange' >${speaker.description}</h3>
+      <p class='greyer' >${speaker.about}</p>
+      </div>
+      </div>
+      `;
+});
