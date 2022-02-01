@@ -19,12 +19,11 @@
   />
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="/src/css/main.css">
-  <link rel="stylesheet" href="/src/css/main.css">
   <title>Web Summit Accra</title>
 </head>
 <body>
   <main class="container-fluid">
-    <section class="wrapper container-fluid">
+    <section class="wrapper container-fluid m-0 p-0">
       <header class="container-fluid">
         <span class="menu">&#x2630;</span>
         <nav id="navbar" class="container-fluid">
@@ -152,21 +151,23 @@
         </a>
       </div>
     </section>
-    <section  class="speakers container-fluid px-4">
-      <div class="container speaker-text">
-        <h3 class="lato text-center fw-bold pt-5">
-          Featured Speakers
-        </h3>
+    <section id="speakers" class="speakers container-fluid px-4 m-0">
+      <div class="container speaker-txt">
+        <h3 class="lato text-center fw-bold pt-5">Featured Speakers</h3>
         <span class="line"></span>
       </div>
-      <div id="container-cards">       
+      <div class="container-cards">
+        <div class="columns-row1 row justify-content-center p-0 m-0 mb-xl-3"></div>
+        <div class="columns-row2 row justify-content-center hide-cards  p-0 m-0 mb-xl-3"></div>
+        <div class="columns-row3 row justify-content-center hide-cards p-0 m-0 mb-xl-3"></div>
       </div>
-      <div class="hide-btn d-flex justify-content-center">
-        <a href="#card">
-          <span class="show-items">More</span>
-          <i class="fa fa-chevron-down"></i>
-        </a>
-      </div>
+         <div class="hide-btn d-flex justify-content-center my-4">
+           <a href="#card">
+             <span class="show-items">MORE</span>
+             <i class="fa fa-chevron-down"></i>
+           </a>
+          </div
+      > 
     </section>
     <section id="partners container-fluid" class="sponsors-container white bg-dark">
       <div class="sponsors text-center">
@@ -200,7 +201,7 @@
   </main>
 
     <script src="/src/js/main.js"></script>
-    <script src="/src/js/about.js"></script>
+    <script src="/src/js/speakers.js"></script>
     <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"

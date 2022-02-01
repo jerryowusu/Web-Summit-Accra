@@ -1,102 +1,38 @@
-const programs = [
-  {
-    icon: 'fa-graduation-cap',
-    title: 'Lecture',
-    text: 'Listen to the most renowned personalities in the universe give motivate the youth on how best to stay on top',
-  },
-  {
-    icon: 'fa-university',
-    title: 'Workshop',
-    text: 'Get opportunities to see other peoples marvelous creations whiles exhibiting your own skills to the world.',
-  },
-  {
-    icon: 'fa-clone',
-    title: 'Forum',
-    text: 'Enjoy as open-minded people from all walks of life deliberate and share their thoughts and opinions with experts.',
-  },
-  {
-    icon: 'fa-handshake',
-    title: 'Network',
-    text: 'The summit offers you the greatest opportunity to meet and network with the best minds of our generation. Looking for mentorship? Look no further',
-  },
-  {
-    icon: 'fa-coins',
-    title: 'Funding',
-    text: 'Do you have any project or ideas that you need money for funding? The summit will never disappoint you. We have thousands of investors attending the program each year',
-  },
-];
+const openMenu = document.querySelector('.menu');
+const closeMenu = document.querySelectorAll('.close-btn');
+const mobileMenu = document.querySelector('#navbar');
 
-const speakers = [
-  {
-    id: 1,
-    name: 'Jeremiah Owusu',
-    description: 'Founder and CEO at BestJ Group of Companies',
-    about: 'Coming from a pharmaceutical background, Jerry has created a niche for himself in the tech industry. He believes that with the right mindset and support system, everyone can achieve the optimum best',
-    imageUrl: '/src/images/Jerry-owusu.jpeg',
-  },
-  {
-    id: 2,
-    name: 'Esther Owusu-Ansah',
-    description: 'Physician Assistant, Co-founder and CEO at BestJ Rentals',
-    about: 'In her most recent role as Chief Executive Officer, BestJ Rentals, she led them to their best productive years ever.',
-    imageUrl: '/src/images/Esther-owusu.jpeg',
-  },
-  {
-    id: 3,
-    name: 'Patrick Awuah',
-    description: 'Founder and President of Ashesi University',
-    about: 'Patrick Awuah is the Founder and President of Ashesi University, a private, not-for-profit institution that has quickly gained a reputation for innovation and quality education in Ghana. ',
-    imageUrl: '/src/images/patrick-awuah.jpg',
-  },
-  {
-    id: 4,
-    name: 'Williams Adu',
-    description: 'Senior Software Engineer at Microsoft ',
-    about: 'After completing a degree in Telecommunication at the Kwame Nkrumah University of Science and Technology(KNUST), Williams Adu has pushed himself to become one of the best engineers the world has ever known',
-    imageUrl: '/src/images/williams-adu.jpg',
-  },
-  {
-    id: 5,
-    name: 'John Agyekum Kuffour',
-    description: 'Former President of the Republic of Ghana',
-    about: 'Former president of Ghana, a renowned lawyer and a businessman.',
-    imageUrl: '/src/images/John_Kufuor.jpg',
-  },
-  {
-    id: 6,
-    name: 'Peter Yefi',
-    description: 'Chief Technical Officer at Complete Farmer',
-    about: 'Hands-on, successful software engineer and data science enthusiast with great analytical skills and in-depth knowledge in Python, ETL and Java. +3 years experience in Ghana, Rwanda, Kenya and US',
-    imageUrl: '/src/images/peter-yefi.jpg',
-  },
-];
-
-const programCard = document.getElementById('program-cards');
-
-programs.forEach((program) => {
-  programCard.innerHTML += `
-    <div class='program white'>
-    <i class='fa ${program.icon}'></i>   
-    <h2 class='orange' >${program.title}</h2>
-    <p class='grey' >${program.text}</p>
-    </div>
-    `;
+openMenu.addEventListener('click', () => {
+  mobileMenu.style.height = '100%';
 });
 
-const speakerCard = document.getElementById('container-cards');
-
-speakers.forEach((speaker) => {
-  speakerCard.innerHTML += `
-     <div id='speaker.id'>
-       <div>
-      <img src='/src/images/speaker-background.jpg'width='60%' height='80%'>
-      <img src=' ${speaker.imageUrl}' alt='${speaker.name}' width='80%' height='100%'>
-      </div>
-      <div>
-     <h3 class='' >${speaker.name}</h3>
-      <h3 class='orange' >${speaker.description}</h3>
-      <p class='greyer' >${speaker.about}</p>
-      </div>
-      </div>
-      `;
+closeMenu.forEach((element) => {
+  element.addEventListener('click', () => {
+    mobileMenu.style.height = '0%';
+  });
 });
+
+// const hideElement = document.querySelectorAll('.hide-cards');
+// const hideBtn = document.querySelector('.hide-btn');
+// const showItems = document.querySelector('.show-items');
+// const icon = document.querySelector('.hide-btn i');
+// const caretDown = ('fa', 'fa-chevron-down');
+// const caretUp = ('fa', 'fa-chevron-up');
+
+// hideElement.forEach((item) => {
+//   hideBtn.addEventListener('click', () => {
+//     if (item.style.visibility === 'visible') {
+//       item.style.visibility = 'hidden';
+//       item.style.height = '0';
+//       showItems.textContent = 'MORE';
+//       icon.classList.remove(caretUp);
+//       icon.classList.add(caretDown);
+//     } else {
+//       item.style.visibility = 'visible';
+//       item.style.height = '100%';
+//       showItems.textContent = 'LESS';
+//       icon.classList.remove(caretDown);
+//       icon.classList.add(caretUp);
+//     }
+//   });
+// });
