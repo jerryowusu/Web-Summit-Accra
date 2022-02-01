@@ -75,10 +75,12 @@ const programCard = document.getElementById('program-cards');
 
 programs.forEach((program) => {
   programCard.innerHTML += `
-      <div class='program white'>
-      <i class='fa ${program.icon}'></i>   
-      <h2 class='orange' >${program.title}</h2>
-      <p class='grey' >${program.text}</p>
+  <div class="card-contain col-md col-lg col-xl card h-100% p-0 m-0">
+      <div class='program-text row col-md-12 col-lg-12 col-xl-12 card-body p-0 m-0 bkg align-items-center'>
+      <i class='fa ${program.icon} white img1'></i>   
+      <h3 class='orange col-3 lato my-3 text-center col-md-12 col-lg-12 col-xl-12m-0' >${program.title}</h3>
+      <p class='grey text-center lato col-7 col-md-12 col-lg-12 col-xl-12' >${program.text}</p>
       </div>
+    </div>
       `;
 });
