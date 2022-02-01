@@ -83,7 +83,7 @@ programs.forEach((program) => {
     `;
 });
 
-const speakerCard = document.getElementById('speaker-cards');
+const speakerCard = document.getElementById('container-cards');
 
 speakers.forEach((speaker) => {
   speakerCard.innerHTML += `
