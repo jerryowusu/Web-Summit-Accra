@@ -1,26 +1,26 @@
 const programs = [
   {
-    imageUrl: 'https://fontawesome.com/v4.7/icon/fa-graduation-cap',
+    icon: 'fa-graduation-cap',
     title: 'Lecture',
     text: 'Listen to the most renowned personalities in the universe give motivate the youth on how best to stay on top',
   },
   {
-    imageUrl: 'https://fontawesome.com/v4.7/icon/fa-university',
+    icon: 'fa-university',
     title: 'Workshop',
     text: 'Get opportunities to see other peoples marvelous creations whiles exhibiting your own skills to the world.',
   },
   {
-    imageUrl: 'https://fontawesome.com/v4.7/icon/fa-clone',
+    icon: 'fa-clone',
     title: 'Forum',
     text: 'Enjoy as open-minded people from all walks of life deliberate and share their thoughts and opinions with experts.',
   },
   {
-    imageUrl: 'https://fontawesome.com/v4.7/icon/fa-handshake',
+    icon: 'fa-handshake',
     title: 'Network',
     text: 'The summit offers you the greatest opportunity to meet and network with the best minds of our generation. Looking for mentorship? Look no further',
   },
   {
-    imageUrl: 'https://fontawesome.com/v4.7/icon/fa-coins',
+    icon: 'fa-coins',
     title: 'Funding',
     text: 'Do you have any project or ideas that you need money for funding? The summit will never disappoint you. We have thousands of investors attending the program each year',
   },
@@ -76,7 +76,7 @@ const programCard = document.getElementById('program-cards');
 programs.forEach((program) => {
   programCard.innerHTML += `
     <div class='program white'>
-    ${program.imageUrl}
+    <i class='fa ${program.icon}'></i>   
     <h2 class='orange' >${program.title}</h2>
     <p class='grey' >${program.text}</p>
     </div>
