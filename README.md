@@ -1,9 +1,11 @@
 # Web Summit 2022 Accra
+This is my first capstone project at Microverse. This project is a website for a motivational web summit that organizes prominent people from around the world to mentor and motivate young ingenious young minds to reach their optimum best potential. It was created with HTML, CSS, Bootstrap and Javascript. Linters have been added to help catch errors and make the project bug free.
 
 Live preview [here](https://jerryowusu.github.io/Web-Summit-Accra/). 
 
 ## Screenshots
-![Example screenshot](/src/images/desktop-screenshot.png)
+![Example screenshot](./images/desktop-screenshot.png)
+![Example screenshot](./images/mobile-Screenshot.png)
 
 ## Contents
 * [Homepage](#homepage)
@@ -11,7 +13,7 @@ Live preview [here](https://jerryowusu.github.io/Web-Summit-Accra/).
 * [Partners](#partners)
 * [Contact](#contact)
 * [Mobile menu](#mobile)
-* [Click more for expand speakers](#speakers)
+* [Click more to expand speakers](#speakers)
 
 ## General info
 This project is my first Capstone.
@@ -22,6 +24,8 @@ Project is created with:
 * CSS
 * Bootstrap
 * Javascript
+* Github
+* Linters
 
 	
 ## Setup
@@ -34,7 +38,7 @@ $ git clone https://github.com/jerryowusu/Web-Summit-Accra.git
 👤 **Jerry Owusu**
 
 - Github : [@jerryowusu](https://github.com/jerryowusu)
-- Twitter: [@jerry owusu](https://twitter.com/jerryowusu1)
+- Twitter: [@jerry owusu11](https://twitter.com/jerryowusu1)
 - LinkedIn : [@Jeremiah Owusu](https://www.linkedin.com/in/jeremiah-owusu-b50a70173/)
 
 
