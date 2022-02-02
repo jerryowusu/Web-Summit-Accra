@@ -91,7 +91,7 @@ nav li a {
 }
 
 .white-nav li {
-  margin-right: 50px;
+  margin-right: 10px;
 }
 
 .black-nav {
@@ -245,6 +245,10 @@ nav li a {
     height: auto;
     bottom: 5px;
     animation: 1s ease-out 0s 1 slideInFromLeft;
+  }
+
+  .white-nav .logo-home {
+    margin-left: -160px;
   }
 
   .white-nav li {

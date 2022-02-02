@@ -50,7 +50,7 @@ nav li a {
 }
 
 .white-nav li {
-  margin-right: 50px;
+  margin-right: 10px;
 }
 
 .logo-home {
@@ -121,7 +121,7 @@ nav li a {
 }
 
 .wrapper {
-  background-image: url("../images/background-img-2.jpg");
+  background-image: url("../images/background-img.jpg");
   background-repeat: no-repeat;
   padding: 15px;
   background-size: cover;
@@ -173,11 +173,11 @@ nav li a {
 }
 
 .program-text h3 {
-  font-size: 2.2vh;
+  font-size: 2vh;
 }
 
 .program-text h5 {
-  font-size: 2vh;
+  font-size: 1.6vh;
   color: white;
 }
 
@@ -367,6 +367,10 @@ nav li a {
   .white-nav li {
     margin-top: 10px;
     height: auto;
+  }
+
+  .white-nav .logo-home {
+    margin-left: -160px;
   }
 
   .text h1 {
