@@ -4,16 +4,16 @@ const featuredSpeakers1 = [
     name: 'Jeremiah Owusu',
     description: 'Founder and CEO at BestJ Group of Companies',
     about: 'Coming from a pharmaceutical background, Jerry has created a niche for himself in the tech industry. He believes that with the right mindset and support system, everyone can achieve the optimum best',
-    img1: "./src/images/speaker-background.jpg",
-    img2: "./src/images/Jerry-owusu.jpeg",
+    img1: './images/speaker-background.jpg',
+    img2: './images/Jerry-owusu.jpeg',
   },
   {
     id: 2,
     name: 'Esther Owusu-Ansah',
     description: 'Physician Assistant, Co-founder and CEO at BestJ Rentals',
     about: 'In her most recent role as Chief Executive Officer, BestJ Rentals, she led them to their best productive years ever.',
-    img1: "./src/images/speaker-background.jpg",
-    img2: "./src/images/Esther-owusu.jpeg",
+    img1: './images/speaker-background.jpg',
+    img2: './images/Esther-owusu.jpeg',
   },
 ];
 const featuredSpeakers2 = [
@@ -22,16 +22,16 @@ const featuredSpeakers2 = [
     name: 'Patrick Awuah',
     description: 'Founder and President of Ashesi University',
     about: 'Patrick Awuah is the Founder and President of Ashesi University, a private, not-for-profit institution that has quickly gained a reputation for innovation and quality education in Ghana. ',
-    img1: "./src/images/speaker-background.jpg",
-    img2: "./src/images/patrick-awuah.jpg",
+    img1: './images/speaker-background.jpg',
+    img2: './images/patrick-awuah.jpg',
   },
   {
     id: 2,
     name: 'Williams Adu',
     description: 'Senior Software Engineer at Microsoft ',
     about: 'After completing a degree in Telecommunication at the Kwame Nkrumah University of Science and Technology(KNUST), Williams Adu has pushed himself to become one of the best engineers the world has ever known',
-    img1: "./src/images/speaker-background.jpg",
-    img2: "./src/images/williams-adu.jpg",
+    img1: './images/speaker-background.jpg',
+    img2: './images/williams-adu.jpg',
   },
 ];
 
@@ -41,16 +41,16 @@ const featuredSpeakers3 = [
     name: 'John Agyekum Kuffour',
     description: 'Former President of the Republic of Ghana',
     about: 'Former president of Ghana, a renowned lawyer and a businessman.',
-    img1: "./src/images/speaker-background.jpg",
-    img2: "./src/images/John_Kufuor.jpg",
+    img1: './images/speaker-background.jpg',
+    img2: './images/John_Kufuor.jpg',
   },
   {
     id: 2,
     name: 'Peter Yefi',
     description: 'Chief Technical Officer at Complete Farmer',
     about: 'Hands-on, successful software engineer and data science enthusiast with great analytical skills and in-depth knowledge in Python, ETL and Java. +3 years experience in Ghana, Rwanda, Kenya and US',
-    img1: "./src/images/speaker-background.jpg",
-    img2: "./src/images/peter-yefi.jpg",
+    img1: './images/speaker-background.jpg',
+    img2: './images/peter-yefi.jpg',
   },
 ];
 
