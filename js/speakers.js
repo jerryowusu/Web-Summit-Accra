@@ -66,7 +66,7 @@ for (let i = 0; i < featuredSpeakers1.length; i += 1) {
   <div class="row align-items-start justify-content-start">
     <div class="images  col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 ">
          <img class="image1 img-fluid" src="${featuredSpeaker1.img1}" alt="" width=60% height=80%>
-        <img class="image2 " src="${featuredSpeaker1.img2}" alt='${featuredSpeaker1.name}' width=80% height=100%>
+        <img class="image2 " src="${featuredSpeaker1.img2}" alt='${featuredSpeaker1.name}' width=80% height=80%>
     </div>
     <div class="description align-items-center justify-content-center col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8 mt-2">
         <h4>${featuredSpeaker1.name}</h4>
@@ -92,7 +92,7 @@ for (let i = 0; i < featuredSpeakers2.length; i += 1) {
   <div class="row align-items-start justify-content-start">
     <div class="images  col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
          <img class="image1 img-fluid" src="${featuredSpeaker2.img1}" alt="" width=60% height=80%>
-        <img class="image2 " src="${featuredSpeaker2.img2}" alt='${featuredSpeaker2.name}' width=80% height=100%>
+        <img class="image2 " src="${featuredSpeaker2.img2}" alt='${featuredSpeaker2.name}' width=80% height=80%>
     </div>
     <div class="description align-items-center justify-content-center col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8 mt-2">
         <h4>${featuredSpeaker2.name}</h4>
@@ -117,7 +117,7 @@ for (let i = 0; i < featuredSpeakers2.length; i += 1) {
   <div class="row align-items-start justify-content-start">
     <div class="images  col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
          <img class="image1 img-fluid" src="${featuredSpeaker3.img1}" alt="" width=60% height=80%>
-        <img class="image2 " src="${featuredSpeaker3.img2}" alt='${featuredSpeaker3.name}' width=80% height=100%>
+        <img class="image2 " src="${featuredSpeaker3.img2}" alt='${featuredSpeaker3.name}' width=80% height=80%>
   </div>
     <div class="description align-items-center justify-content-center col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8 mt-2">
         <h4>${featuredSpeaker3.name}</h4>
