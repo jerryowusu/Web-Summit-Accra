@@ -49,6 +49,10 @@ nav li a {
   left: 30%;
 }
 
+.white-nav li {
+  margin-right: 50px;
+}
+
 .logo-home {
   left: 210px;
   width: 30%;
@@ -169,11 +173,11 @@ nav li a {
 }
 
 .program-text h3 {
-  font-size: 3.5vh;
+  font-size: 2.2vh;
 }
 
 .program-text h5 {
-  font-size: 2.2vh;
+  font-size: 2vh;
   color: white;
 }
 
@@ -331,6 +335,10 @@ nav li a {
     display: none;
   }
 
+  .web-button {
+    width: auto;
+  }
+
   .black-nav {
     visibility: visible;
     height: 100%;
@@ -479,5 +487,9 @@ nav li a {
 
   .columns-row1 {
     margin-bottom: 30px;
+  }
+
+  .hide {
+    display: none;
   }
 }

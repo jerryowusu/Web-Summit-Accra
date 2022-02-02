@@ -90,6 +90,10 @@ nav li a {
   color: rgb(206, 203, 203);
 }
 
+.white-nav li {
+  margin-right: 50px;
+}
+
 .black-nav {
   visibility: hidden;
   height: 0;
