@@ -5,11 +5,11 @@
   padding: 0;
   margin: 0;
 }
-  
-  html {
-    scroll-behavior: smooth;
-  }
-  
+
+html {
+  scroll-behavior: smooth;
+}
+
 .menu {
   font-size: 50px;
   font-weight: bolder;
@@ -220,7 +220,6 @@ nav li a {
   color: #a19f9f;
 }
 
-
 .images {
   position: relative;
   top: 18px;
@@ -239,7 +238,6 @@ nav li a {
 .description h6 {
   font-size: 1.6vh;
 }
-
 
 .text h1 {
   font-size: 4vh;
@@ -273,7 +271,6 @@ nav li a {
 .text p {
   margin-bottom: 45px;
 }
-
 
 .image1 {
   position: relative;
@@ -316,7 +313,6 @@ nav li a {
 .columns-row1 {
   margin-bottom: 30px;
 }
-
 
 .close:hover {
   color: #f1eeee;
@@ -415,7 +411,6 @@ nav li a {
   }
 }
 
-
 @media only screen and (min-width: 768px) and (max-width: 991.8px) {
   .mail {
     left: 50px;
@@ -449,7 +444,6 @@ nav li a {
     bottom: 7px;
   }
 }
-
 
 @media only screen and (max-width: 768px) {
   .logo-home {
@@ -486,7 +480,4 @@ nav li a {
   .columns-row1 {
     margin-bottom: 30px;
   }
-
 }
-
-

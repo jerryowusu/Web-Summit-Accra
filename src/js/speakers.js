@@ -1,4 +1,4 @@
-const featuredSpeakers1  = [
+const featuredSpeakers1 = [
   {
     id: 1,
     name: 'Jeremiah Owusu',
@@ -14,9 +14,9 @@ const featuredSpeakers1  = [
     about: 'In her most recent role as Chief Executive Officer, BestJ Rentals, she led them to their best productive years ever.',
     img1: '/src/images/speaker-background.jpg',
     img2: '/src/images/Esther-owusu.jpeg',
-  }
-]
-  const featuredSpeakers2 = [
+  },
+];
+const featuredSpeakers2 = [
   {
     id: 1,
     name: 'Patrick Awuah',
@@ -32,10 +32,10 @@ const featuredSpeakers1  = [
     about: 'After completing a degree in Telecommunication at the Kwame Nkrumah University of Science and Technology(KNUST), Williams Adu has pushed himself to become one of the best engineers the world has ever known',
     img1: '/src/images/speaker-background.jpg',
     img2: '/src/images/williams-adu.jpg',
-  }
-]
+  },
+];
 
-const featuredSpeakers3 = [ 
+const featuredSpeakers3 = [
   {
     id: 1,
     name: 'John Agyekum Kuffour',
@@ -51,10 +51,8 @@ const featuredSpeakers3 = [
     about: 'Hands-on, successful software engineer and data science enthusiast with great analytical skills and in-depth knowledge in Python, ETL and Java. +3 years experience in Ghana, Rwanda, Kenya and US',
     img1: '/src/images/speaker-background.jpg',
     img2: '/src/images/peter-yefi.jpg',
-  }
+  },
 ];
-
-
 
 const speakers1 = document.querySelector('.columns-row1');
 
