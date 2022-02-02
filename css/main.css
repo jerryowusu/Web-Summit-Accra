@@ -1,0 +1,499 @@
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.menu {
+  font-size: 50px;
+  font-weight: bolder;
+  cursor: pointer;
+  margin: 22px 0 65px 32px;
+  color: #5f5d5d;
+}
+
+.bkg {
+  background-color: rgba(175, 171, 171, 0.3);
+}
+
+nav {
+  height: 0%;
+  position: fixed;
+  top: 0;
+  width: auto;
+  background-image: url("../images/background-img-1.jpg");
+  overflow-y: hidden;
+  z-index: 1500;
+  transition: 0.5s;
+}
+
+nav li {
+  position: relative;
+  left: -9px;
+  top: 50px;
+}
+
+nav li a {
+  color: rgb(179, 176, 176);
+}
+
+.nav-logo {
+  position: relative;
+  top: 10%;
+  left: 30%;
+}
+
+.white-nav li {
+  margin-right: 10px;
+}
+
+.logo-home {
+  left: 210px;
+  width: 30%;
+  height: auto;
+  bottom: 5px;
+}
+
+.black-nav {
+  visibility: hidden;
+  height: 0;
+}
+
+.line {
+  display: block;
+  align-items: center;
+  width: 20%;
+  border: 1px solid #db3d13;
+  margin: auto;
+}
+
+.line2 {
+  display: block;
+  width: 10%;
+  border: 1px solid rgb(126, 124, 124, 0.3);
+  margin-bottom: 5px;
+}
+
+.line3 {
+  position: relative;
+  display: block;
+  align-items: center;
+  width: 20%;
+  border: 2px solid rgb(189, 188, 188);
+  margin: auto;
+  top: 25%;
+  bottom: 20px;
+}
+
+.lato {
+  font-family: 'Lato', sans-serif;
+}
+
+.coco {
+  font-family: 'Cocogoose', sans-serif;
+}
+
+.orange {
+  color: #f25938;
+}
+
+.grey {
+  color: #c4bfbf;
+}
+
+.greyer {
+  font-weight: bolder;
+  color: #5f5d5d;
+}
+
+.white {
+  color: #fff;
+}
+
+.red {
+  color: red;
+}
+
+.wrapper {
+  background-image: url("../images/background-img.jpg");
+  background-repeat: no-repeat;
+  padding: 15px;
+  background-size: cover;
+}
+
+.hide-cards {
+  visibility: hidden;
+  height: 0;
+}
+
+.hide-btn {
+  padding: 10px;
+  border: 1px solid #c9bfbf;
+  width: 100%;
+  color: #5f5d5d;
+}
+
+.hide-btn a {
+  text-decoration: none;
+  color: #5f5d5d;
+}
+
+.hide-btn i {
+  margin-left: 3px;
+  color: red;
+}
+
+.for-hide {
+  display: none;
+}
+
+.close {
+  display: block;
+  position: relative;
+  top: -45px;
+  left: 32px;
+  font-size: 50px;
+  color: rgb(126, 124, 124);
+  cursor: pointer;
+}
+
+.program {
+  margin-top: 90px;
+  background-image: url("../images/background-img-1.jpg");
+}
+
+.program-text {
+  background-image: url("../images/background-img-2.jpg");
+}
+
+.program-text h3 {
+  font-size: 2vh;
+}
+
+.program-text h5 {
+  font-size: 1.6vh;
+  color: white;
+}
+
+.program-footer h4 {
+  font-size: 2.8vh;
+}
+
+.program-footer {
+  z-index: 1;
+}
+
+.program img {
+  width: auto;
+}
+
+.sponsors-container {
+  background: #222;
+}
+
+.partner1 {
+  font-size: 28px;
+  color: #c9c2c2;
+}
+
+.partner2 {
+  font-size: 26px;
+  background: -webkit-linear-gradient(#eee, rgb(116, 113, 113));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.partner3 {
+  font-size: 20px;
+  color: #a19f9f;
+}
+
+.partner4 {
+  font-size: 20px;
+  color: #a19f9f;
+}
+
+.partner5 {
+  font-size: 20px;
+  color: #a19f9f;
+}
+
+.images {
+  position: relative;
+  top: 18px;
+  height: 100%;
+  z-index: -1;
+}
+
+.description h4 {
+  font-size: 2.3vh;
+}
+
+.description h5 {
+  font-size: 1.8vh;
+}
+
+.description h6 {
+  font-size: 1.6vh;
+}
+
+.text h1 {
+  font-size: 4vh;
+  font-weight: 700;
+  background-image: url("../images/text.jpg");
+  background-size: cover;
+  background-position: center center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text h2 {
+  font-size: 2.8vh;
+  font-weight: bolder;
+  color: #5f5d5d;
+}
+
+.text h3 {
+  font-weight: bolder;
+  font-size: 2.8vh;
+  color: #fc6209;
+  margin-bottom: 18px;
+  margin-top: 30px;
+}
+
+.text h4 {
+  margin-bottom: 90px;
+  color: #5f5d5d;
+}
+
+.text p {
+  margin-bottom: 45px;
+}
+
+.image1 {
+  position: relative;
+  z-index: -1;
+  margin-bottom: 50px;
+}
+
+.image2 {
+  position: absolute;
+  top: 10px;
+  left: 22px;
+  z-index: 1500;
+}
+
+.mail-txt {
+  font-size: 2.1vh;
+}
+
+.footer p {
+  font-size: 1.7vh;
+}
+
+.last {
+  background-color: #db3d13;
+}
+
+.last a {
+  text-decoration: none;
+}
+
+.speaker-txt {
+  position: relative;
+  bottom: 15px;
+}
+
+.footer-hide {
+  display: none;
+}
+
+.columns-row1 {
+  margin-bottom: 30px;
+}
+
+.close:hover {
+  color: #f1eeee;
+}
+
+.last:hover {
+  background-color: #f5f1f0;
+}
+
+.last:hover h4 {
+  color: #db3d13;
+}
+
+@media only screen and (min-width: 768px) {
+  .menu {
+    display: none;
+  }
+
+  .web-button {
+    width: auto;
+  }
+
+  .black-nav {
+    visibility: visible;
+    height: 100%;
+    padding-right: 50px;
+  }
+
+  .hide-btn {
+    visibility: hidden;
+    height: 0;
+  }
+
+  .hide-cards {
+    visibility: visible !important;
+    height: 100% !important;
+  }
+
+  .logo-home {
+    position: relative;
+    left: 210px;
+    width: 18%;
+    height: auto;
+    bottom: 5px;
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+  }
+
+  .white-nav li {
+    margin-top: 10px;
+    height: auto;
+  }
+
+  .white-nav .logo-home {
+    margin-left: -160px;
+  }
+
+  .text h1 {
+    font-size: 53px;
+  }
+
+  .text h2 {
+    font-size: 34px;
+  }
+
+  .text p {
+    margin-right: 200px;
+  }
+
+  .program-footer {
+    display: none;
+  }
+
+  .line {
+    display: block;
+    align-items: center;
+    width: 4%;
+    border: 1px solid #db3d13;
+    margin: auto;
+  }
+
+  .program-text:hover {
+    border: 3px solid #fff;
+  }
+
+  .speaker-txt {
+    bottom: 0;
+  }
+
+  .spn-columns h3 {
+    font-size: 30px;
+  }
+
+  .footer p {
+    color: rgb(90, 87, 87);
+  }
+
+  .footer h6 {
+    font-size: 24px;
+    color: rgb(29, 28, 28);
+  }
+
+  .footer-hide {
+    margin-top: -30px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.8px) {
+  .mail {
+    left: 50px;
+  }
+
+  .mail-icon {
+    left: 30px;
+  }
+
+  .sponsors-container {
+    padding: 0;
+    position: relative;
+    margin-top: 50px;
+  }
+
+  .spn-columns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .spn-columns h3 {
+    font-size: 30px;
+    padding: 0;
+    margin-left: 0;
+  }
+
+  .pr2 h3 {
+    position: relative;
+    left: 150px;
+    bottom: 7px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .logo-home {
+    left: 210px;
+    width: 30%;
+    height: auto;
+    bottom: 5px;
+  }
+
+  .images {
+    position: relative;
+    top: 10px;
+    height: 100%;
+    z-index: -1;
+  }
+
+  .image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  .image2 {
+    position: absolute;
+    top: 10px;
+    left: 22px;
+    z-index: 1500;
+  }
+
+  .card-wrapper {
+    margin-bottom: 30px;
+  }
+
+  .columns-row1 {
+    margin-bottom: 30px;
+  }
+
+  .hide {
+    display: none;
+  }
+}
