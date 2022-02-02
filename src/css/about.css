@@ -63,7 +63,7 @@ main {
 }
 
 .wrapper {
-  background-image: url("../images/background-img.png");
+  background-image: url("/src/images/background-img.png");
   background-repeat: no-repeat;
   padding: 15px;
   background-size: cover;
@@ -74,7 +74,7 @@ nav {
   position: fixed;
   top: 0;
   width: auto;
-  background-image: url("../images/background-img-1.jpg");
+  background-image: url("/src/images/background-img-1.jpg");
   overflow-y: hidden;
   z-index: 1500;
   transition: 0.5s;
