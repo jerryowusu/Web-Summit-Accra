@@ -27,7 +27,7 @@ nav {
   position: fixed;
   top: 0;
   width: auto;
-  background-image: url("./src/images/background-img-1.jpg");
+  background-image: url("../src/images/background-img-1.jpg");
   overflow-y: hidden;
   z-index: 1500;
   transition: 0.5s;
@@ -121,7 +121,7 @@ nav li a {
 }
 
 .wrapper {
-  background-image: url("./src/images/background2.jpg");
+  background-image: url("../src/images/background2.jpg");
   background-repeat: no-repeat;
   padding: 15px;
   background-size: cover;
@@ -165,11 +165,11 @@ nav li a {
 
 .program {
   margin-top: 90px;
-  background-image: url("./src/images/background-img-1.jpg");
+  background-image: url("../src/images/background-img-1.jpg");
 }
 
 .program-text {
-  background-image: url("./src/images/background-img-2.jpg");
+  background-image: url("../src/images/background-img-2.jpg");
 }
 
 .program-text h3 {
@@ -246,7 +246,7 @@ nav li a {
 .text h1 {
   font-size: 4vh;
   font-weight: 700;
-  background-image: url("./src/images/text.jpg");
+  background-image: url("../src/images/text.jpg");
   background-size: cover;
   background-position: center center;
   -webkit-background-clip: text;
