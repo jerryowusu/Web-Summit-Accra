@@ -1,13 +1,18 @@
 # Web Summit 2022 Accra
-This is my first capstone project at Microverse. This project is a website for a motivational web summit that organizes prominent people from around the world to mentor and motivate young ingenious young minds to reach their optimum best potential. It was created with HTML, CSS, Bootstrap and Javascript. Linters have been added to help catch errors and make the project bug free.
+
+This is my first capstone project at Microverse. This project is a website for a motivational web summit that organizes prominent people from around the world to mentor and motivate young ingenious young minds to reach their optimum best potential. It was motivated by the CC Global Summit 2015 theme 
+by Cindy Shin
 
 Live preview [here](https://jerryowusu.github.io/Web-Summit-Accra/). 
 
-## Screenshots
-![Example screenshot](./images/desktop-screenshot.png)
-![Example screenshot](./images/mobile-Screenshot.png)
+
+<p style="display: flex; align-items: start; gap: 10px">
+  <img src="./images/desktop-screenshot.png" width="70%" />
+  <img src="./images/mobile-screenshot.png" width="21%" />
+</p>
 
 ## Contents
+
 * [Homepage](#homepage)
 * [Program](#program)
 * [Partners](#partners)
@@ -16,10 +21,13 @@ Live preview [here](https://jerryowusu.github.io/Web-Summit-Accra/).
 * [Click more to expand speakers](#speakers)
 
 ## General info
+
 This project is my first Capstone.
 	
 ## Technologies
+
 Project is created with:
+
 * HTML
 * CSS
 * Bootstrap
@@ -27,11 +35,21 @@ Project is created with:
 * Github
 * Linters
 
-	
-## Setup
-To run this project, install it locally using:
-$ cd Desktop
-$ git clone https://github.com/jerryowusu/Web-Summit-Accra.git
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+A Web Browser (preferably Google Chrome)
+
+### Setup
+
+Clone the GitHub Repository(https://github.com/jerryowusu/Web-Summit-Accra.git)
+
+### Usage
+
+Open index.html in Chrome
 
 ## Author
 
@@ -54,6 +72,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
+- Microverse
 - A special thanks to Cindy Shin author of the original design.
 
 ## 📝 License
@@ -61,6 +80,7 @@ Give a ⭐️ if you like this project!
 This project is [MIT](LICENSE) licensed.
 
 ## Contact
+
 Created by [@jerryowusu](https://github.com/jerryowusu) - feel free to contact me!
 
 
