@@ -1,6 +1,6 @@
 # Web Summit 2022 Accra
 
-Live preview [here](https://vudej.github.io/Web-Summit-2022-Lisbon/). 
+Live preview [here](https://jerryowusu.github.io/Web-Summit-Accra/). 
 
 ## Screenshots
 ![Example screenshot](/src/images/desktop-screenshot.png)
@@ -10,7 +10,7 @@ Live preview [here](https://vudej.github.io/Web-Summit-2022-Lisbon/).
 * [Program](#program)
 * [Partners](#partners)
 * [Contact](#contact)
-* [Hamburger menu](#mobile)
+* [Mobile menu](#mobile)
 * [Click more for expand speakers](#speakers)
 
 ## General info
