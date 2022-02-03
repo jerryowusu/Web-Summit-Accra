@@ -7,8 +7,8 @@ Live preview [here](https://jerryowusu.github.io/Web-Summit-Accra/).
 
 
 <p style="display: flex; align-items: start; gap: 10px">
-  <img src="./images/partners-Screenshot.png" width="70%" />
-  <img src="./images/mobile-Screenshot.png" width="21%" />
+  <img src="./images/partners-Screenshot.png" width="60%" />
+  <img src="./images/desktop-screenshot.png" width="31%" />
 </p>
 
 ## Contents
