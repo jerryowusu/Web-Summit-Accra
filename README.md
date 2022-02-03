@@ -7,8 +7,8 @@ Live preview [here](https://jerryowusu.github.io/Web-Summit-Accra/).
 
 
 <p style="display: flex; align-items: start; gap: 10px">
-  <img src="./images/desktop-screenshot.png" width="70%" />
-  <img src="./images/mobile-screenshot.png" width="21%" />
+  <img src="./images/partners-Screenshot.png" width="70%" />
+  <img src="./images/mobile-Screenshot.png" width="21%" />
 </p>
 
 ## Contents
@@ -64,7 +64,7 @@ Open index.html in Chrome
 
 Contributions, issues, and feature requests  are always welcome!
 
-Feel free to check the [issues page]https://github.com/jerryowusu/Web-Summit-Accra/issues).
+Feel free to check the [issues page](https://github.com/jerryowusu/Web-Summit-Accra/issues).
 
 ## Show your support
 
