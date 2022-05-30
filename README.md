@@ -1,3 +1,5 @@
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
 # Web Summit 2022 Accra
 
 This is my first capstone project at Microverse. This project is a website for a motivational web summit that organizes prominent people from around the world to mentor and motivate young ingenious young minds to reach their optimum best potential. It was motivated by the CC Global Summit 2015 theme 
