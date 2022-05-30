@@ -196,6 +196,10 @@ nav li a {
   background: #222;
 }
 
+.partners {
+  font-size: 20px;
+}
+
 .partner1 {
   font-size: 28px;
   color: #c9c2c2;
@@ -209,17 +213,17 @@ nav li a {
 }
 
 .partner3 {
-  font-size: 20px;
+  /* font-size: 20px; */
   color: #a19f9f;
 }
 
 .partner4 {
-  font-size: 20px;
+  /* font-size: 20px; */
   color: #a19f9f;
 }
 
 .partner5 {
-  font-size: 20px;
+  /* font-size: 20px; */
   color: #a19f9f;
 }
 
@@ -419,40 +423,6 @@ nav li a {
 
   .footer-hide {
     margin-top: -30px;
-  }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 991.8px) {
-  .mail {
-    left: 50px;
-  }
-
-  .mail-icon {
-    left: 30px;
-  }
-
-  .sponsors-container {
-    padding: 0;
-    position: relative;
-    margin-top: 50px;
-  }
-
-  .spn-columns {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .spn-columns h3 {
-    font-size: 30px;
-    padding: 0;
-    margin-left: 0;
-  }
-
-  .pr2 h3 {
-    position: relative;
-    left: 150px;
-    bottom: 7px;
   }
 }
 
