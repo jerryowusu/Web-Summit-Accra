@@ -1,5 +1,5 @@
-@import url('http://fonts.cdnfonts.com/css/cocogoose');
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&display=swap');
+@import url("https://fonts.cdnfonts.com/css/cocogoose");
+@import url("https://fonts.cdnfonts.com/css/Lato");
 
 * {
   padding: 0;
@@ -121,7 +121,6 @@ nav li a {
 }
 
 .wrapper {
-  background-image: url("../images/background-img.jpg");
   background-repeat: no-repeat;
   padding: 15px;
   background-size: cover;

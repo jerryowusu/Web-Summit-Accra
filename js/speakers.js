@@ -54,13 +54,12 @@ const featuredSpeakers3 = [
   },
 ];
 
-const speakers1 = document.querySelector('.columns-row1');
+const speakers1 = document.querySelector('#speakers1');
 
 for (let i = 0; i < featuredSpeakers1.length; i += 1) {
   const featuredSpeaker1 = featuredSpeakers1[i];
 
-  speakers1.innerHTML += `
-        
+  speakers1.innerHTML += `        
             
   <div  id='${featuredSpeaker1.id}' class='col-md-6 col-lg-5 col-xl-5 mt-3'>
   <div class="row align-items-start justify-content-start">
@@ -81,7 +80,7 @@ for (let i = 0; i < featuredSpeakers1.length; i += 1) {
 `;
 }
 
-const speakers2 = document.querySelector('.columns-row2');
+const speakers2 = document.querySelector('#speakers2');
 
 for (let i = 0; i < featuredSpeakers2.length; i += 1) {
   const featuredSpeaker2 = featuredSpeakers2[i];
@@ -107,7 +106,7 @@ for (let i = 0; i < featuredSpeakers2.length; i += 1) {
 `;
 }
 
-const speakers3 = document.querySelector('.columns-row3');
+const speakers3 = document.querySelector('#speakers3');
 
 for (let i = 0; i < featuredSpeakers2.length; i += 1) {
   const featuredSpeaker3 = featuredSpeakers3[i];
