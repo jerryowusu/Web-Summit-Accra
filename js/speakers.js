@@ -49,15 +49,15 @@ const featuredSpeakers = [
   },
 ];
 
-const speakers = document.querySelector('#speakers');
+const speakers = document.querySelector('#dynamic-speakers');
 
 const loadSpeakers1 = () => {
   if (speakers !== null) {
     featuredSpeakers.forEach((speaker) => {
       const render = `
-      <div  id='${speaker.id}' class='col-md-6 col-lg-5 col-xl-5 mt-3'>
-      <div class="row align-items-start justify-content-start">
-        <div class="images  col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 ">
+      <div  id='${speaker.id} class='dynamic-speaker row m-3 p-5 mt-5'>
+      <div class="row">
+        <div class="images col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 ">
              <img class="image1 img-fluid" src="${speaker.img1}" alt="" width=50% height=60%>
             <img class="image2 " src="${speaker.img2}" alt='${speaker.name}' width=80% height=90%>
         </div>
@@ -70,7 +70,6 @@ const loadSpeakers1 = () => {
         </div>
        </div>
         </div>               
-    </div>
       `;
       speakers.innerHTML += `\n ${render}`;
     });
