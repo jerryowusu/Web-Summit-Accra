@@ -4,48 +4,48 @@ const featuredSpeakers = [
     name: 'Jeremiah Owusu',
     description: 'Founder and CEO at BestJ Group of Companies',
     about: 'Coming from a pharmaceutical background, Jerry has created a niche for himself in the tech industry. He believes that with the right mindset and support system, everyone can achieve the optimum best',
-    img1: './images/speaker-background.jpg',
+    // img1: './images/speaker-background.jpg',
     img2: './images/Jerry-owusu.jpeg',
   },
   {
     id: 2,
-    name: 'Esther Owusu-Ansah',
-    description: 'Physician Assistant, Co-founder and CEO at BestJ Rentals',
-    about: 'In her most recent role as Chief Executive Officer, BestJ Rentals, she led them to their best productive years ever.',
-    img1: './images/speaker-background.jpg',
-    img2: './images/Esther-owusu.jpeg',
+    name: 'Steve Beale',
+    description: 'SalesForce Consultant at Simplus',
+    about: 'He manufactured a customer database for both sales and service using CRM databases and tools of Zoho',
+    // img1: './images/speaker-background.jpg',
+    img2: './images/steve-beale.jpeg',
   },
   {
     id: 3,
-    name: 'Patrick Awuah',
-    description: 'Founder and President of Ashesi University',
-    about: 'Patrick Awuah is the Founder and President of Ashesi University, a private, not-for-profit institution that has quickly gained a reputation for innovation and quality education in Ghana. ',
-    img1: './images/speaker-background.jpg',
-    img2: './images/patrick-awuah.jpg',
+    name: 'Mac Bamba',
+    description: 'SalesForce Consultant at Simplus',
+    about: 'Led a group of interns to build a career website that is similar to jobstreet/linkedin. He also designs the user interface of the website using the Eden Framework, a PHP framework.',
+    // img1: './images/speaker-background.jpg',
+    img2: './images/macB.jpeg',
   },
   {
     id: 4,
     name: 'Williams Adu',
     description: 'Senior Software Engineer at Microsoft ',
     about: 'After completing a degree in Telecommunication at the Kwame Nkrumah University of Science and Technology(KNUST), Williams Adu has pushed himself to become one of the best engineers the world has ever known',
-    img1: './images/speaker-background.jpg',
+    // img1: './images/speaker-background.jpg',
     img2: './images/williams-adu.jpg',
   },
   {
     id: 5,
-    name: 'John Agyekum Kuffour',
-    description: 'Former President of the Republic of Ghana',
-    about: 'Former president of Ghana, a renowned lawyer and a businessman.',
-    img1: './images/speaker-background.jpg',
-    img2: './images/John_Kufuor.jpg',
+    name: 'Czyrene Erika Paguio',
+    description: 'Capability Lead at Simplus',
+    about: 'She obtained BSc Electronics Engineering at De La Salle Lipa, and has since been a force to reckon with in what ever organization employed in',
+    // img1: './images/speaker-background.jpg',
+    img2: './images/Czyrene-Paguio.jpeg',
   },
   {
     id: 6,
-    name: 'Peter Yefi',
-    description: 'Chief Technical Officer at Complete Farmer',
-    about: 'Hands-on, successful software engineer and data science enthusiast with great analytical skills and in-depth knowledge in Python, ETL and Java. +3 years experience in Ghana, Rwanda, Kenya and US',
-    img1: './images/speaker-background.jpg',
-    img2: './images/peter-yefi.jpg',
+    name: 'Elike Banibensu',
+    description: 'BPO / ICT Enabled Services and Process Improvement Consultant',
+    about: 'Experience in Operations Management since 2005. ACS-Xerox Six-sigma black belt certified. Production, Quality and Workforce Management since 2002. International Project Management (EU Micro Projects / World Bank VIP Projects) and Rural Development Planning expertise since 1998',
+    // img1: './images/speaker-background.jpeg',
+    img2: './images/elikeB.jpeg',
   },
 ];
 
@@ -58,7 +58,7 @@ const loadSpeakers1 = () => {
       <div  id='${speaker.id} class='dynamic-speaker row m-3 p-5 mt-5'>
       <div class="row">
         <div class="images col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 ">
-             <img class="image1 img-fluid" src="${speaker.img1}" alt="" width=50% height=60%>
+             <img class="image1 img-fluid" src='./images/speaker-background.jpg' alt="" width=50% height=60%>
             <img class="image2 " src="${speaker.img2}" alt='${speaker.name}' width=80% height=90%>
         </div>
         <div class="description align-items-center justify-content-center col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8 mt-2">
