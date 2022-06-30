@@ -71,7 +71,7 @@ const loadSpeakers1 = () => {
        </div>
         </div>               
       `;
-      speakers.innerHTML += `\n ${render}`;
+      speakers.innerHTML += `${render}`;
     });
   }
 };
