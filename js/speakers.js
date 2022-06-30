@@ -43,7 +43,7 @@ const featuredSpeakers = [
     id: 6,
     name: 'Elike Banibensu',
     description: 'BPO / ICT Enabled Services and Process Improvement Consultant',
-    about: 'Experience in Operations Management since 2005. ACS-Xerox Six-sigma black belt certified. Production, Quality and Workforce Management since 2002. International Project Management (EU Micro Projects / World Bank VIP Projects) and Rural Development Planning expertise since 1998',
+    about: 'Experience in Operations Management since 2005. ACS-Xerox Six-sigma black belt certified. Production, Quality and Workforce Management since 2002.',
     // img1: './images/speaker-background.jpeg',
     img2: './images/elikeB.jpeg',
   },
